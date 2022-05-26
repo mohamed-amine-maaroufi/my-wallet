@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="listArray">
+        <item>(DT) Dinar Tunisien</item>
+        <item>($) Dollar American</item>
+        <item>(€) Euro</item>
+    </string-array>
+
+    <string-array name="listValues">
+        <item>DT</item>
+        <item>$</item>
+        <item>€</item>
+    </string-array>
+</resources>

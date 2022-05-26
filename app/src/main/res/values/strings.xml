@@ -1,0 +1,183 @@
+<resources>
+    <string name="app_name">My Wallet</string>
+    <string name="action_settings">Préférences</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_add_income">Ajouter un revenu</string>
+    <string name="Expense_title">Ajoutez votre dépense</string>
+    <string name="type">Type</string>
+    <string name="amount">Montant</string>
+    <string name="timeframe">Plage de temps</string>
+    <string name="importance">importance</string>
+    <string name="submit_button">Envoyer</string>
+    <string name="expensenotes">notes</string>
+    <string name="expensenotetext">Note</string>
+    <string name="category">Catégorie</string>
+    <string name="categories">Catégories</string>
+    <string name="checkboxrforexpenses">CheckBox</string>
+    <string-array name="expensetype_array">
+        <item>Ponctuel</item>
+        <item>Temporaire</item>
+        <item>Permanent</item>
+    </string-array>
+    <string-array name="expensecategory_array">
+        <item>Catégories de dépenses</item>
+        <item>vêtements</item>
+        <item>Education</item>
+        <item>Divertissement</item>
+        <item>Nourriture</item>
+        <item>Gadgets</item>
+        <item>Santé et beauté</item>
+        <item>Développement personnel</item>
+        <item>Social</item>
+        <item>Transport</item>
+        <item>Autre</item>
+    </string-array>
+    <string-array name="incomecategory_array">
+        <item>Catégories de revenus</item>
+        <item>Salaire</item>
+        <item>Location</item>
+        <item>Profit</item>
+        <item>Épargne personnelle</item>
+        <item>Investments</item>
+        <item>Pension</item>
+        <item>Petits boulots</item>
+        <item>Gains</item>
+        <item>Autre</item>
+    </string-array>
+
+    <string-array name="account">
+        <item>Sélectionnez un compte</item>
+        <item>Espèce</item>
+        <item>Carte de crédit</item>
+        <item>Carte de débit</item>
+        <item>Services de paiement en ligne</item>
+        <item>À crédit</item>
+        <item>Autre</item>
+    </string-array>
+    <string name="title_activity_add_expense">Ajouter une dépense</string>
+    <string name="title_activity_settings">Préférences</string>
+    <string name="title_activity_login">Connexion</string>
+    <string name="title_activity_inscription">Inscription</string>
+    <string name="currency">Monnaie</string>
+    <string name="_select_currency_description">Sélectionnez votre monnaie préférée</string>
+    <string name="title_overall_data_analysis">Analyse de données - Global</string>
+    <string name="title_income_data_analysis">Analyse de données - Revenu</string>
+    <string name="title_expense_data_analysis">Analyse de données - Dépense</string>
+    <string name="delete_all_income">Supprimer tous les revenus</string>
+    <string name="delete_all_expense">Supprimer toutes les dépenses</string>
+    <string name="delete_all_income_detail">Cela supprimera tous les revenus actuellement présents</string>
+    <string name="delete_all_expense_detail">Cela supprimera toutes les dépenses actuellement présentes</string>
+    <string name="delete_all_savings">Supprimer toutes les épargnes</string>
+    <string name="delete_all_adjustments">Supprimer tous les ajustements</string>
+    <string name="delete_all_savings_detail">Cela supprimera toutes les épargnes actuellement présentes</string>
+    <string name="delete_all_adjustments_detail">Cela supprimera tous les ajustements actuellement présents</string>
+    <string name="backup1">Importer Base de données</string>
+    <string name="backup1_description">Importer une base de données préexistante. Cela supprimera les données actuellement saisies</string>
+    <string name="backup2">Exporter Base de données </string>
+    <string name="backup2_description">Base de données d\'exportation qui peut être importée plus tard</string>
+    <string name="general">Général</string>
+    <string name="backupsettings">Sauvegarde et importation</string>
+    <string name="app">Application</string>
+    <string name="report_a_bug">Reporter un bug</string>
+    <string name="report_details">Parlez-nous de tout bogue que vous trouvez dans l\'application</string>
+    <string name="Feedback">Feedback</string>
+    <string name="Feedback_details">Parlez-nous des améliorations que vous aimeriez voir dans la prochaine mise à jour</string>
+    <string name="budget_name">My Wallet 1.0.0 </string>
+    <string name="app_details">Crée par Maysa Skhiri </string>
+
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="expense_type_frequency">FRÉQUENCE DES TYPES DE DÉPENSES</string>
+    <string name="example_graph2">Example Graph</string>
+    <string name="income_type_frequency">TYPE DE REVENU FRÉQUENCE</string>
+    <string name="total_budget">BUDGET TOTAL</string>
+    <string name="total_expense">DÉPENSE TOTALE</string>
+    <string name="string_total_expense">Dépense totale</string>
+    <string name="total_income">REVENU TOTAL</string>
+    <string name="example_income">Exemple</string>
+    <string name="example_Expense">example</string>
+    <string name="example_total">example</string>
+    <string name="data_analysis_option">Analyse des données</string>
+    <string name="by_category_option">Par catégorie</string>
+    <string name="by_account_option">Par compte</string>
+    <string name="expense_option">Dépense</string>
+    <string name="income_option">Revenu</string>
+    <string name="overall_option">Globalement</string>
+    <string name="menu_open">drawer open</string>
+    <string name="menu_close">drawer close</string>
+    <string name="share_option">Partager</string>
+    <string name="adjust_option">Ajustements de solde</string>
+    <string name="help_option">Aide</string>
+    <string name="feeedback_option">Feedback</string>
+    <string name="savings_option">Épargne</string>
+    <string name="home_option">Home</string>
+    <string name="table_data_button">Table</string>
+    <string name="Pie_chart_data_button">Pie chart</string>
+    <string name="accounts">Comptes</string>
+    <string name="balance">Solde</string>
+    <string name="income">Révenu</string>
+    <string name="expense">Dépense</string>
+    <string name="overview">Aperçu</string>
+
+    <string name="cash">Espèces</string>
+    <string name="credit_card">Carte de crédit</string>
+    <string name="debit_card">Carte de débit</string>
+    <string name="online_payment_services">Services de paiement en ligne</string>
+    <string name="on_credit">À crédit</string>
+    <string name="other">Autre</string>
+    <string name="total">Totale</string>
+    <string name="online_payment_services_linebreak">En ligne \n services de paiement</string>
+    <string name="salary">Salaire</string>
+    <string name="rent">Location</string>
+    <string name="profit">Profit</string>
+    <string name="personal_savings">Épargne personnelle</string>
+    <string name="investments">Investissements</string>
+    <string name="pension">Pension</string>
+    <string name="odd_jobs">Petits boulots</string>
+    <string name="winnings">Gains</string>
+    <string name="other_category_linebreak">Autres \ncatégorie</string>
+    <string name="other_category">Autres Catégories</string>
+    <string name="category2">Catégorie</string>
+    <string name="other_accounts">Autres comptes</string>
+    <string name="apparel">Vêtements</string>
+    <string name="education">Éducation</string>
+    <string name="entertainment">Divertissement</string>
+    <string name="food">Nourriture</string>
+    <string name="gadget">Gadgets</string>
+    <string name="healthandbeauty">Santé et beauté</string>
+    <string name="selfdevelopment">Développement personnel</string>
+    <string name="social">Social</string>
+    <string name="transport">Transport</string>
+    <string name="other_categories">Autres catégories</string>
+    <string name="transfer_savings">Transfert vers l\'épargne</string>
+    <string name="calender">CALENDRIER</string>
+    <string name="adjustments_amount">Ajuster l\'équilibre</string>
+    <string name="adjust_button">Ajuster</string>
+    <string name="transfer_button">Transférer</string>
+    <string name="title_activity_savings">Épargne</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_adjustments">Ajustements</string>
+	
+
+    <string name="help_recording_transactions">ENREGISTREMENT DES TRANSACTIONS</string>
+    <string name="help_recording_transactions_detail">Vous pouvez ajouter des revenus et des dépenses via le bouton d\'ajout flottant en bas de l\'écran d\'accueil. Les revenus et dépenses enregistrés peuvent être vus dans les onglets revenus et dépenses situés en haut de l\'écran d\'accueil. Pour modifier ou supprimer une transaction enregistrée, cliquez dessus et sélectionnez supprimer ou modifier.</string>
+    <string name="help_data_analytics">ANALYSE DES DONNÉES</string>
+    <string name="help_data_analytics_detail">Les données sur les revenus, les dépenses et le solde global sont affichées sous forme de tableau et de graphique à secteurs. Le format du tableau montre une répartition claire des données pour les catégories et les comptes. Veuillez noter que le graphique à secteurs n\'affiche pas les ajustements et les épargnes, car leur affichage rendra le graphique à secteurs inexact.</string>
+    <string name="help_adjusting_balance">AJUSTER LE SOLDE</string>
+    <string name="help_adjusting_balance_detail">Les soldes peuvent être ajustés à partir de l\'onglet revenus ou dépenses de l\'écran d\'accueil en utilisant le solde d\'ajustement et en saisissant le montant de l\'ajustement. Les ajustements effectués dans l\'onglet des revenus seront ajoutés et les ajustements effectués dans l\'onglet des dépenses seront déduits. L\'historique de vos ajustements s\'affichera dans la section « Ajustements de solde »  de l\'application.</string>
+    <string name="help_Savings">ÉPARGNE</string>
+    <string name="help_savings_detail">Tout montant du budget total peut être transféré dans la section « Épargne » de l\'application en utilisant le transfert vers l\'épargne à partir de l\'onglet Aperçu de l\'écran d\'accueil. La section épargne affiche et suit vos progrès pour divers objectifs financiers. </string>
+    <string name="help_others">AUTRE</string>
+    <string name="help_others_detail">Vous pouvez trouver les paramètres de changement de devise et la possibilité de supprimer les revenus et les dépenses dans la section Préférences. Si vous trouvez un bogue, veuillez nous le signaler en utilisant les Préférences. De plus, si vous avez des commentaires sur la façon d\'améliorer notre application, veuillez nous en informer en utilisant l\'option « FeedBack» dans la section « Préférences » dans le menu.</string>
+    <string name="title_activity_all_adjustments">Tous les ajustements</string>
+    <string name="add_income_adjustements"> AJOUTER DES AJUSTEMENTS DE REVENU</string>
+    <string name="add_expense_adjustements"> AJOUTER DES AJUSTEMENTS DE DÉPENSES</string>
+    <string name="tab_text_1">Revenu</string>
+    <string name="tab_text_2">Dépense</string>
+
+
+</resources>

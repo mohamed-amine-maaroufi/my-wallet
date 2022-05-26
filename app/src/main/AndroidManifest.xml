@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mywallet.budget">
+
+    <uses-permission android:name="com.android.alarm.permission.Set_ALARM" />
+
+    <application
+        android:allowBackup="true"
+        android:configChanges="orientation"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.mywallet.budget.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mywallet.budget.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden">
+        </activity>
+        <activity
+            android:name="com.mywallet.budget.add_expense"
+            android:label="@string/title_activity_add_expense"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.mywallet.budget.add_income"
+            android:label="@string/title_activity_add_income"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.mywallet.budget.Income_data_analysis"
+            android:label="@string/title_income_data_analysis"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.mywallet.budget.PreferencesActivity"
+            android:label="@string/title_activity_settings"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.mywallet.budget.Overall_data_analysis"
+            android:label="@string/title_overall_data_analysis"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.mywallet.budget.Expense_data_analysis"
+            android:label="@string/title_expense_data_analysis"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.mywallet.budget.Savings"
+            android:label="@string/title_activity_savings"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.mywallet.budget.Adjustments"
+            android:label="@string/title_activity_adjustments"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.mywallet.budget.Help"
+            android:label="@string/help_option"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.mywallet.budget.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.mywallet.budget.InscriptionActivity"
+            android:label="@string/title_activity_inscription"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <receiver android:name="com.mywallet.budget.AlarmReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.DISPLAY_NOTIFICATION" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.mywallet.budget.AllAdjustments"
+            android:label="@string/title_activity_all_adjustments"
+            android:parentActivityName="com.mywallet.budget.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.mywallet.budget.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>
